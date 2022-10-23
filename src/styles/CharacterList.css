@@ -1,0 +1,30 @@
+.character-container {
+  display: grid;
+  place-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  text-align: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+/* LARGE */
+@media screen and (max-width:1440px) {
+  .character-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* MEDIUM */
+@media screen and (max-width:1024px) {
+  .character-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* SMALL */
+@media screen and (max-width:768px) {
+  .character-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

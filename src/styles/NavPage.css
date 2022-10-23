@@ -1,0 +1,18 @@
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0;
+}
+
+.button-container button {
+  padding: .5rem;
+  font-family: inherit;
+  cursor: pointer;
+  background-color: rgb(255, 255, 0);
+  border: 1px solid #000;
+  color: #333;
+}
+/* .button-container button:focus {
+  background-color: unset;
+  color: #fff;
+} */
